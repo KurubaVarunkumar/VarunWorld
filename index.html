@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <TITLE>VARUN WORLD</TITLE>
+    <style>
+        /* Base styles for all screen sizes */
+        *{
+            background-color: blue;
+        }
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Responsive styles for screens up to 768px wide */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Responsive styles for screens up to 480px wide */
+@media (max-width: 480px) {
+    nav li {
+        margin: 5px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>VARUN WORLD</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="Address.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Our Website</h2>
+            <p>Lets Break</p>
+        </section>
+
+        <section>
+            <h2>About Us</h2>
+            <p>We are providing a good Services</p>
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li><a href="#">Mega</a></li>
+                <li><a href="#">Telugu</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Responsive Design Example</p>
+    </footer>
+</body>
+</html>
